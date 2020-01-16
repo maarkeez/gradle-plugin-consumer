@@ -9,9 +9,7 @@ buildNumber {
 
 buildscript {
 	repositories {
-		flatDir {
-			dirs '/Users/maarkeez/Documents/GitLab/introduction-gradle/local-repository'
-		}
+		flatDir { dirs "../local-repository" }
 	}
 	
 	dependencies { classpath 'com.apress.gradle:build-number-plugin:1.0.0'	}
